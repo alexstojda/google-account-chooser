@@ -19,10 +19,16 @@
       "matches": [
         "https://accounts.google.com/o/oauth2/*",
         "https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?*",
-        "https://accounts.google.com/AccountChooser/signinchooser?*"
+        "https://accounts.google.com/AccountChooser/signinchooser?*",
+        "https://accounts.google.com/signout/chrome/landing?*",
+        "https://accounts.google.com/signin/oauth/id?*",
+        "https://accounts.google.com/v3/signin/challenge/pk/presend?*",
+        "https://accounts.google.com/v3/signin/confirmidentifier?*",
+        "https://accounts.google.com/signin/oauth/consent?*",
+        "https://app.strongdm.com/app/auth/native-continue?*"
       ],
       "js": [
-        "google_accounts.js"
+        "gac.js"
       ]
     }
   ],
