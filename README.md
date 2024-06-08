@@ -1,5 +1,14 @@
 # google-account-chooser
 
+This is a patched version of google-account-chooser where it will click on the `Next`, `Continue`, buttons for you.
+
+## Installing
+
+It is not publish to the Chrome Store, so you'll have to install it manually.
+
+See [Load an unpacked extension](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked)
+
+You will want to load the `extension` directory in the repository. For example: `~/src/github.com/j-martin/google-account-chooser/extension`
 
 If you use Google Account Authentication in applications on a day to day basis this chrome extension is for you.
 
@@ -8,9 +17,6 @@ After selecting to log in to a 3rd party site using a Google Account this extens
 This extension needs to access the Account Selection page and stores the selected account/email per domain.  If you use Google Account sync it will synchronise this between browsers.
 
 It does not store passwords or any other sensitive authentication data and does not store data from the pages you visit.
-
-[Install from Chrome web store](https://chrome.google.com/webstore/detail/google-account-chooser/fldnfjcbkcklcbcbjojlinecjpbmiapi)
-
 
 ## Questions and Answers
 Q: What if I picked the wrong account?
@@ -32,6 +38,3 @@ Q: Why did you create this extension?
 
 A: I typically have to select the right Google Account 10-20 times per day and I
 just thought there was a better way to do that!
-
-
-
