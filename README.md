@@ -10,6 +10,8 @@ See [Load an unpacked extension](https://developer.chrome.com/docs/extensions/ge
 
 You will want to load the `extension` directory in the repository. For example: `~/src/github.com/j-martin/google-account-chooser/extension`
 
+## Description
+
 If you use Google Account Authentication in applications on a day to day basis this chrome extension is for you.
 
 After selecting to log in to a 3rd party site using a Google Account this extension will remember which account you used so next time you log in you just have to select login and this extension will select the account automatically.
