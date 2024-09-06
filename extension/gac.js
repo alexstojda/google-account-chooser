@@ -110,10 +110,11 @@ const safelyAllowGCP = () => {
 
 const main = () => {
   gacStartup();
-
   const map = {
     "https://accounts.google.com/signout/chrome/landing?": clickFn('span', 'Sign in again'),
     "https://accounts.google.com/signin/oauth/id?": clickFn('span', 'Continue'),
+    "https://accounts.google.com/v3/signin/challenge/pk/presend?": clickFn('span', 'Continue'),
+    "https://accounts.google.com/signout/chrome/landing?": clickFn('span', 'Sign in again'),
     "https://accounts.google.com/v3/signin/challenge/pk/presend?": clickFn('span', 'Continue'),
     "https://accounts.google.com/signin/oauth/consent?": safelyAllowGCP,
     "https://accounts.google.com/v3/signin/confirmidentifier?": clickFn('span', 'Next'),

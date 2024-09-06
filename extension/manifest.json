@@ -25,7 +25,9 @@
         "https://accounts.google.com/v3/signin/challenge/pk/presend?*",
         "https://accounts.google.com/v3/signin/confirmidentifier?*",
         "https://accounts.google.com/signin/oauth/consent?*",
-        "https://app.strongdm.com/app/auth/native-continue?*"
+        "https://app.strongdm.com/app/auth/native-continue?*",
+        "https://accounts.google.com/signout/chrome/landing?*",
+        "https://accounts.google.com/v3/signin/challenge/pk/presend?*"
       ],
       "js": [
         "gac.js"
