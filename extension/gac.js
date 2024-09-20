@@ -118,7 +118,7 @@ const main = () => {
     "https://accounts.google.com/v3/signin/challenge/pk/presend?": clickFn('span', 'Continue'),
     "https://accounts.google.com/signin/oauth/consent?": safelyAllowGCP,
     "https://accounts.google.com/v3/signin/confirmidentifier?": clickFn('span', 'Next'),
-    "https://app.strongdm.com/app/auth/native-continue?": _ => setTimeout(clickFn('div', 'Log in with Google'), 1000),
+    "https://app.strongdm.com/app/auth/native-continue?": _ => setTimeout(clickFn('span', 'Log in with Google'), 1000),
   }
 
   for (const [url, fn] of Object.entries(map)) {
